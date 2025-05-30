@@ -10,8 +10,7 @@ interface LoginButtonProps {
 
 export const LoginButton = ({
     children,
-    mode,
-    asChild
+    mode
 }: LoginButtonProps) => {
 
     const router = useRouter();
